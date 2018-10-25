@@ -622,7 +622,7 @@ else:
             open('log_barbershop.txt','w+')
             
         if os.stat('log_barbershop.txt').st_size == 0:
-                bs.logmenu('log_barbershop.txt')
+            bs.logmenu('log_barbershop.txt')
         
         
             
